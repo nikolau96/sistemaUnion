@@ -66,12 +66,12 @@ public class PDFGenerator {
 
         Cell colEmpresa = new Cell();
         colEmpresa.setBorder(new SolidBorder(1));
-        colEmpresa.add(new Paragraph("FEDERAL ANDAIMES").setFont(fontBold).setFontSize(16));
-        colEmpresa.add(new Paragraph("Nome Empresarial: 60.067.070 - Sonia Maria Leobons da Silva").setFont(fontRegular).setFontSize(9));
-        colEmpresa.add(new Paragraph("Endereço: Av. Tomas Alves de Figueiredo,150 C2").setFont(fontRegular).setFontSize(9));
-        colEmpresa.add(new Paragraph("Vila Hepacaré - Lorena - SP- CEP 12608-356").setFont(fontRegular).setFontSize(9));
-        colEmpresa.add(new Paragraph("cel.: (12) 99776-4144").setFont(fontRegular).setFontSize(9));
-        colEmpresa.add(new Paragraph("CNPJ: 60.067.070/0001-99").setFont(fontRegular).setFontSize(9));
+        colEmpresa.add(new Paragraph("GENÉRICO ANDAIMES").setFont(fontBold).setFontSize(16));
+        colEmpresa.add(new Paragraph("Nome Empresarial: Genérico Andaimes").setFont(fontRegular).setFontSize(9));
+        colEmpresa.add(new Paragraph("Endereço: Avenida Exemplo, 789").setFont(fontRegular).setFontSize(9));
+        colEmpresa.add(new Paragraph("Vila Hermoso - Taubaté - SP- CEP 99999-999").setFont(fontRegular).setFontSize(9));
+        colEmpresa.add(new Paragraph("cel.: (12) 99999-9999").setFont(fontRegular).setFontSize(9));
+        colEmpresa.add(new Paragraph("CNPJ: 99.999.999/9999-99").setFont(fontRegular).setFontSize(9));
 
         Cell colVazia = new Cell();
         colVazia.setBorder(new SolidBorder(1));
@@ -79,7 +79,6 @@ public class PDFGenerator {
         //Cell colCnpj = new Cell();
         //colCnpj.setBorder(new SolidBorder(1));
         //colCnpj.add(new Paragraph("C.N.P.J.").setFont(fontRegular).setFontSize(9));
-        //colCnpj.add(new Paragraph("60.067.070/0001-99").setFont(fontRegular).setFontSize(11).setBorder(new SolidBorder(1)).setTextAlignment(TextAlignment.CENTER));
         //colCnpj.add(new Paragraph("INSCRIÇÃO ESTADUAL").setFont(fontRegular).setFontSize(8));
         //colCnpj.add(new Paragraph("").setBorder(new SolidBorder(1)).setHeight(12));
         //colCnpj.add(new Paragraph("INSCRIÇÃO MUNICIPAL").setFont(fontRegular).setFontSize(8));
@@ -283,7 +282,7 @@ public class PDFGenerator {
 
         Cell label = new Cell();
         label.setBorder(new SolidBorder(1));
-        label.add(new Paragraph("RECEBEMOS 60067070 - Sonia Maria Leobons da Silva OS PRODUTOS/LOCADOS CONSTANTES DESTA NOTA FATURA").setFont(fontRegular).setFontSize(6));
+        label.add(new Paragraph("RECEBEMOS DE GENÉRICO ANDAIMES OS PRODUTOS/LOCADOS CONSTANTES DESTA NOTA FATURA").setFont(fontRegular).setFontSize(6));
 
         Cell recebimento = new Cell();
         recebimento.setBorder(new SolidBorder(1));
@@ -336,4 +335,5 @@ public class PDFGenerator {
         cell.add(new Paragraph(texto).setFont(font).setFontSize(8).setTextAlignment(TextAlignment.CENTER));
         return cell;
     }
+
 }
