@@ -169,15 +169,15 @@ public class OrdemServicoFrame extends JFrame {
 
     private JPanel criarPainelCabecalho() {
         JPanel painel = new JPanel(new BorderLayout());
-        painel.setBorder(BorderFactory.createTitledBorder("FEDERAL ANDAIMES"));
+        painel.setBorder(BorderFactory.createTitledBorder("GENÉRICO ANDAIMES"));
         JPanel dadosEmpresa = new JPanel(new GridLayout(4, 1));
-        dadosEmpresa.add(new JLabel("Nome Empresarial: 60.067.070 - Sonia Maria Leobons da Silva"));
-        dadosEmpresa.add(new JLabel("Endereço: Av. Tomas Alves de Figueiredo, 150 C2"));
-        dadosEmpresa.add(new JLabel("Vila Hepacaré - Lorena - SP- CEP 12608-356"));
-        dadosEmpresa.add(new JLabel("cel.: (12) 99776-4144"));
+        dadosEmpresa.add(new JLabel("Nome Empresarial: Genérico Andaimes LTDA"));
+        dadosEmpresa.add(new JLabel("Endereço: Avenida Exemplo, 789"));
+        dadosEmpresa.add(new JLabel("Vila Hermoso - Taubaté - SP- CEP 99999-999"));
+        dadosEmpresa.add(new JLabel("cel.: (12) 99999-9999"));
         JPanel dadosFiscais = new JPanel(new GridLayout(4, 1));
         //dadosFiscais.add(new JLabel("Nº: "));
-        dadosFiscais.add(new JLabel("C.N.P.J.: 60.067.070/0001-99"));
+        dadosFiscais.add(new JLabel("C.N.P.J.: 99.999.999/9999-99"));
         //dadosFiscais.add(new JLabel("INSCRIÇÃO ESTADUAL: "));
         //dadosFiscais.add(new JLabel("INSCRIÇÃO MUNICIPAL: "));
         JPanel numeros = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -607,3 +607,4 @@ public class OrdemServicoFrame extends JFrame {
         }
     }*/
 }
+
