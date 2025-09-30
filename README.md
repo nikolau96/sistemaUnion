@@ -9,5 +9,5 @@
 8. IA utilizada: Claude
 9. Modelo utilizado: Sonnet 4.5
 
-## Observação
+## AVISO
 Por experiência própria, **NÃO** indico o uso da técnica de Vibe Coding e, __MUITO MENOS__, o uso de Inteligência Artificial em projetos de desenvolvimento de software.
