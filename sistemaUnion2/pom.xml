@@ -78,6 +78,16 @@
                   <mainClass>com.sistemaUnion2.Main</mainClass>
                 </transformer>
               </transformers>
+              <filters>
+                <filter>
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>META-INF/*.SF</exclude>
+                    <exclude>META-INF/*.DSA</exclude>
+                    <exclude>META-INF/*.RSA</exclude>
+                  </excludes>
+                </filter>
+              </filters>
               <finalName>SistemaUnion</finalName>
             </configuration>
           </execution>
@@ -86,3 +96,4 @@
     </plugins>
   </build>
 </project>
+
