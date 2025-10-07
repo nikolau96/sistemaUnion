@@ -1,3 +1,6 @@
+## Link do Manual de Uso
+https://wise-neon-cfa.notion.site/MANUAL-DE-USO-283da5ef71708069b267d1934afde641
+
 ## Tecnologias utilizadas
 1. Linguagem de Programação: Java
 2. IDE: Visual Studio Code
